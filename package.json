@@ -1,7 +1,7 @@
 {
   "name": "get-apex-domain-name",
   "version": "0.1.0",
-  "description": "Robustly parses the root / apex domain name without the TLD.",
+  "description": "Robustly parses the root / apex domain name of a URL without the TLD.",
   "main": "index.js",
   "repository": "transitive-bullshit/get-apex-domain-name",
   "author": "Travis Fischer <travis@>",

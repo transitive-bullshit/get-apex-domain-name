@@ -1,0 +1,23 @@
+{
+  "name": "get-apex-domain-name",
+  "version": "0.1.0",
+  "description": "Robustly parses the root / apex domain name without the TLD.",
+  "main": "index.js",
+  "repository": "transitive-bullshit/get-apex-domain-name",
+  "author": "Travis Fischer <travis@>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "ava -v && standard"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "standard": "^11.0.0"
+  },
+  "ava": {
+    "failFast": true,
+    "snapshotDir": "./.snapshots"
+  }
+}
